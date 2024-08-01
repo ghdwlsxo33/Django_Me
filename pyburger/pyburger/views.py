@@ -9,3 +9,6 @@ def main(request):
 def main2(request):
     # return HttpResponse("오늘 점심 밖에 안 나갈란다")
     return render(request, 'main2.html')
+
+def hjt(request):
+    return render(request, 'hjt.html')

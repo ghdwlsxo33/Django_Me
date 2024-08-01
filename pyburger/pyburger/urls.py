@@ -16,10 +16,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from pyburger.views import main, main2
+from pyburger.views import main, main2, hjt
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('main/', main),
     path('main2/', main2),
+    path('hjt/', hjt)
 ]
