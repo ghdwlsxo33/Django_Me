@@ -17,4 +17,4 @@ def burger_list(request):
     burgers = Burger.objects.all()
     print(f"전체 햄버거 목록 : {burgers}")
     context = {'burgers': burgers}
-    return render(request, 'burger_list.html', context)
+    return render( request, 'burger_list.html', context)
